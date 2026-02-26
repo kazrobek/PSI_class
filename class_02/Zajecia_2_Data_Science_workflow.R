@@ -485,7 +485,7 @@ write.csv(kraje, "kraje_analiza.csv")
 
 
 # Zapisanie ramki danych do pliku Excel wymaga pakietu writexl:
-install.packages("writexl")
+# install.packages("writexl")
 library(writexl)
 
 write_xlsx(kraje, "kraje_wynik.xlsx")
